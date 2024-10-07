@@ -10,8 +10,8 @@ const username = faker.internet.userName({firstName: firstname, lastName: lastna
 
 <template>
     <!-- {{ fullname }} <br /> -->
-    <div class="border border-gray-400 rounded-lg shadow bg-gray-200 h-full">
-        <img :src="faker.image.urlLoremFlickr({width: 640, height: 480, category: 'dog'})" class="rounded-t-xl"/>
+    <div class="border border-gray-400 rounded-xl shadow bg-gray-200 h-full">
+        <img :src="faker.image.urlLoremFlickr({width: 640, height: 480, category: 'bird'})" class="rounded-t-xl"/>
         <div class="p-4">
             <p class="mb-2 text-2xl font-bold">{{ fullname }}</p>
             <p class="mb-3 font-normal text-grey-700">{{ job_title }}</p>
